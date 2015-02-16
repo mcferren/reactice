@@ -1,0 +1,138 @@
+@-webkit-keyframes happyPath {
+  0%  {
+    background-size: 100px 100px;
+    -webkit-transform: translateX(160px) 
+               translateY(290px) 
+               rotate(0deg);
+  }
+16%  {
+    background-size: 100px 100px;
+    -webkit-transform: translateX(20px) 
+               translateY(150px) 
+               rotate(72deg);
+  }
+32%  {
+    background-size: 100px 100px;
+    -webkit-transform: translateX(90px) 
+               translateY(60px) 
+               rotate(144deg);
+  } 
+48%  { 
+    background-size: 100px 100px;
+    -webkit-transform: translateX(160px) 
+               translateY(110px) 
+               rotate(216deg);
+  }
+64% {  
+    background-size: 100px 100px;
+    -webkit-transform: translateX(250px) 
+               translateY(70px) 
+               rotate(432deg);
+  }
+  80% {  
+    background-size: 100px 100px;
+    -webkit-transform: translateX(300px) 
+               translateY(180px) 
+               rotate(560deg);
+  }
+  100% {  
+    background-size: 100px 100px;
+    -webkit-transform: translateX(160px) 
+               translateY(290px) 
+               rotate(0deg);
+  }
+}
+
+
+@-moz-keyframes happyPath {
+  0%  {
+    background-size: 100px 100px;
+    -moz-transform: translateX(160px) 
+               translateY(290px) 
+               rotate(0deg);
+  }
+16%  {
+    background-size: 100px 100px;
+    -moz-transform: translateX(20px) 
+               translateY(150px) 
+               rotate(72deg);
+  }
+32%  {
+    background-size: 100px 100px;
+    -moz-transform: translateX(90px) 
+               translateY(60px) 
+               rotate(144deg);
+  } 
+48%  { 
+    background-size: 100px 100px;
+    -moz-transform: translateX(160px) 
+               translateY(110px) 
+               rotate(216deg);
+  }
+64% {  
+    background-size: 100px 100px;
+    -moz-transform: translateX(250px) 
+               translateY(70px) 
+               rotate(432deg);
+  }
+  80% {  
+    background-size: 100px 100px;
+    -moz-transform: translateX(300px) 
+               translateY(180px) 
+               rotate(560deg);
+  }
+  100% {  
+    background-size: 100px 100px;
+    -moz-transform: translateX(160px) 
+               translateY(290px) 
+               rotate(0deg);
+  }
+}
+
+
+
+
+@keyframes happyPath {
+  0%  {
+    background-size: 100px 100px;
+    transform: translateX(160px) 
+               translateY(290px) 
+               rotate(0deg);
+  }
+16%  {
+    background-size: 100px 100px;
+    transform: translateX(20px) 
+               translateY(150px) 
+               rotate(72deg);
+  }
+32%  {
+    background-size: 100px 100px;
+    transform: translateX(90px) 
+               translateY(60px) 
+               rotate(144deg);
+  } 
+48%  { 
+    background-size: 100px 100px;
+    transform: translateX(160px) 
+               translateY(110px) 
+               rotate(216deg);
+  }
+64% {  
+    background-size: 100px 100px;
+    transform: translateX(250px) 
+               translateY(70px) 
+               rotate(432deg);
+  }
+  80% {  
+    background-size: 100px 100px;
+    transform: translateX(300px) 
+               translateY(180px) 
+               rotate(560deg);
+  }
+  100% {  
+    background-size: 100px 100px;
+    transform: translateX(160px) 
+               translateY(290px) 
+               rotate(0deg);
+  }
+}

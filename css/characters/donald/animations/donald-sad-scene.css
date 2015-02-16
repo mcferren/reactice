@@ -1,0 +1,114 @@
+@-webkit-keyframes donaldSadScene {
+    0% {  
+        background: url('../images/sad-donald-1.png') no-repeat;
+        background-size: 100px 100px; 
+        -webkit-transform: scale(1);
+    }
+    16%  {
+        background: url('../images/sad-donald-1.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    32%  {
+        background: url('../images/sad-donald-1.png') no-repeat;
+        background-size: 100px 100px;
+        -webkit-transform: scale(0.7);
+    } 
+    48%  { 
+        background: url('../images/sad-donald-2.png') no-repeat;
+        background-size: 100px 100px;
+        -webkit-transform: scale(1);
+    }
+    64% {  
+        background: url('../images/sad-donald-2.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    80% {  
+        background: url('../images/sad-donald-3.png') no-repeat;
+        background-size: 100px 100px;
+        -webkit-transform: scale(0.7);
+    }
+    100% { 
+        background: url('../images/sad-donald-3.png') no-repeat;
+        background-size: 100px 100px;
+        -webkit-transform: scale(1);
+    }
+}
+
+
+
+
+@-moz-keyframes donaldSadScene {
+    0% {  
+        background: url('../images/sad-donald-1.png') no-repeat;
+        background-size: 100px 100px; 
+        -moz-transform: scale(1);
+    }
+    16%  {
+        background: url('../images/sad-donald-1.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    32%  {
+        background: url('../images/sad-donald-1.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(0.7);
+    } 
+    48%  { 
+        background: url('../images/sad-donald-2.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(1);
+    }
+    64% {  
+        background: url('../images/sad-donald-2.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    80% {  
+        background: url('../images/sad-donald-3.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(0.7);
+    }
+    100% { 
+        background: url('../images/sad-donald-4.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(1);
+    }
+}
+
+
+
+
+
+@keyframes donaldSadScene {
+    0% {  
+        background: url('../images/sad-donald-1.png') no-repeat;
+        background-size: 100px 100px; 
+        transform: scale(1);
+    }
+    16%  {
+        background: url('../images/sad-donald-1.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    32%  {
+        background: url('../images/sad-donald-1.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(0.7);
+    } 
+    48%  { 
+        background: url('../images/sad-donald-2.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(1);
+    }
+    64% {  
+        background: url('../images/sad-donald-2.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    80% {  
+        background: url('../images/sad-donald-3.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(0.7);
+    }
+    100% { 
+        background: url('../images/sad-donald-3.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(1);
+    }
+}

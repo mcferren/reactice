@@ -1,0 +1,115 @@
+@-webkit-keyframes mickeySadScene {
+    0% {  
+	    background: url('../images/sad-mickey-1.png') no-repeat;
+		background-size: 100px 100px; 
+		-webkit-transform: scale(1);
+    }
+	16%  {
+	    background: url('../images/sad-mickey-1.png') no-repeat;
+		background-size: 100px 100px;
+	}
+	32%  {
+	    background: url('../images/sad-mickey-1.png') no-repeat;
+		background-size: 100px 100px;
+		-webkit-transform: scale(0.7);
+	} 
+	48%  { 
+	    background: url('../images/sad-mickey-2.png') no-repeat;
+		background-size: 100px 100px;
+		-webkit-transform: scale(1);
+	}
+	64% {  
+	    background: url('../images/sad-mickey-2.png') no-repeat;
+		background-size: 100px 100px;
+	}
+    80% {  
+	    background: url('../images/sad-mickey-3.png') no-repeat;
+		background-size: 100px 100px;
+		-webkit-transform: scale(0.7);
+    }
+    100% { 
+	    background: url('../images/sad-mickey-3.png') no-repeat;
+		background-size: 100px 100px;
+		-webkit-transform: scale(1);
+    }
+}
+
+
+
+
+
+@-moz-keyframes mickeySadScene {
+    0% {  
+        background: url('../images/sad-mickey-1.png') no-repeat;
+        background-size: 100px 100px; 
+        -moz-transform: scale(1);
+    }
+    16%  {
+        background: url('../images/sad-mickey-1.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    32%  {
+        background: url('../images/sad-mickey-1.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(0.7);
+    } 
+    48%  { 
+        background: url('../images/sad-mickey-2.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(1);
+    }
+    64% {  
+        background: url('../images/sad-mickey-2.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    80% {  
+        background: url('../images/sad-mickey-3.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(0.7);
+    }
+    100% { 
+        background: url('../images/sad-mickey-3.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(1);
+    }
+}
+
+
+
+
+
+@keyframes mickeySadScene {
+    0% {  
+        background: url('../images/sad-mickey-1.png') no-repeat;
+        background-size: 100px 100px; 
+        transform: scale(1);
+    }
+    16%  {
+        background: url('../images/sad-mickey-1.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    32%  {
+        background: url('../images/sad-mickey-1.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(0.7);
+    } 
+    48%  { 
+        background: url('../images/sad-mickey-2.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(1);
+    }
+    64% {  
+        background: url('../images/sad-mickey-2.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    80% {  
+        background: url('../images/sad-mickey-3.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(0.7);
+    }
+    100% { 
+        background: url('../images/sad-mickey-3.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(1);
+    }
+}

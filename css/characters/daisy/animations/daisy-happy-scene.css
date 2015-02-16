@@ -1,0 +1,156 @@
+@-webkit-keyframes daisyHappyScene {
+    0% {  
+	    background: url('../images/happy-daisy-1.png') no-repeat;
+		background-size: 100px 100px; 
+    }
+    3% { -webkit-transform: scale(1); }
+    6% { -webkit-transform: scale(1.48); }
+    9% { -webkit-transform: scale(1); }
+    12% { -webkit-transform: scale(1.25); }
+    15% { -webkit-transform: scale(1); }
+	16%  {
+	    background: url('../images/happy-daisy-1.png') no-repeat;
+		background-size: 100px 100px;
+	}
+	32%  {
+	    background: url('../images/happy-daisy-1.png') no-repeat;
+		background-size: 100px 100px;
+	} 
+    35% { -webkit-transform: scale(1); }
+    38% { -webkit-transform: scale(1.48); }
+    41% { -webkit-transform: scale(1); }
+    44% { -webkit-transform: scale(1.25); }
+    47% { -webkit-transform: scale(1); }
+	48%  { 
+	    background: url('../images/happy-daisy-2.png') no-repeat;
+		background-size: 100px 100px;
+	}
+	64% {  
+	    background: url('../images/happy-daisy-2.png') no-repeat;
+		background-size: 100px 100px;
+	}
+    66% { -webkit-transform: scale(1); }
+    69% { -webkit-transform: scale(1.48); }
+    72% { -webkit-transform: scale(1); }
+    75% { -webkit-transform: scale(1.25); }
+    78% { -webkit-transform: scale(1); }
+    80% {  
+	    background: url('../images/happy-daisy-3.png') no-repeat;
+		background-size: 100px 100px;
+    }
+    86% { -webkit-transform: scale(1); }
+    89% { -webkit-transform: scale(1.48); }
+    92% { -webkit-transform: scale(1); }
+    95% { -webkit-transform: scale(1.25); }
+    98% { -webkit-transform: scale(1); }
+    100% { 
+	    background: url('../images/happy-daisy-3.png') no-repeat;
+		background-size: 100px 100px;
+    }
+}
+
+
+
+@-moz-keyframes daisyHappyScene {
+    0% {  
+	    background: url('../images/happy-daisy-1.png') no-repeat;
+		background-size: 100px 100px; 
+    }
+    3% { -moz-transform: scale(1); }
+    6% { -moz-transform: scale(1.48); }
+    9% { -moz-transform: scale(1); }
+    12% { -moz-transform: scale(1.25); }
+    15% { -moz-transform: scale(1); }
+	16%  {
+	    background: url('../images/happy-daisy-1.png') no-repeat;
+		background-size: 100px 100px;
+	}
+	32%  {
+	    background: url('../images/happy-daisy-1.png') no-repeat;
+		background-size: 100px 100px;
+	} 
+    35% { -moz-transform: scale(1); }
+    38% { -moz-transform: scale(1.48); }
+    41% { -moz-transform: scale(1); }
+    44% { -moz-transform: scale(1.25); }
+    47% { -moz-transform: scale(1); }
+	48%  { 
+	    background: url('../images/happy-daisy-2.png') no-repeat;
+		background-size: 100px 100px;
+	}
+	64% {  
+	    background: url('../images/happy-daisy-2.png') no-repeat;
+		background-size: 100px 100px;
+	}
+    66% { -moz-transform: scale(1); }
+    69% { -moz-transform: scale(1.48); }
+    72% { -moz-transform: scale(1); }
+    75% { -moz-transform: scale(1.25); }
+    78% { -moz-transform: scale(1); }
+    80% {  
+	    background: url('../images/happy-daisy-3.png') no-repeat;
+		background-size: 100px 100px;
+    }
+    86% { -moz-transform: scale(1); }
+    89% { -moz-transform: scale(1.48); }
+    92% { -moz-transform: scale(1); }
+    95% { -moz-transform: scale(1.25); }
+    98% { -moz-transform: scale(1); }
+    100% { 
+	    background: url('../images/happy-daisy-3.png') no-repeat;
+		background-size: 100px 100px;
+    }
+}
+
+
+
+@keyframes daisyHappyScene {
+    0% {  
+	    background: url('../images/happy-daisy-1.png') no-repeat;
+		background-size: 100px 100px; 
+    }
+    3% { transform: scale(1); }
+    6% { transform: scale(1.48); }
+    9% { transform: scale(1); }
+    12% { transform: scale(1.25); }
+    15% { transform: scale(1); }
+	16%  {
+	    background: url('../images/happy-daisy-1.png') no-repeat;
+		background-size: 100px 100px;
+	}
+	32%  {
+	    background: url('../images/happy-daisy-1.png') no-repeat;
+		background-size: 100px 100px;
+	} 
+    35% { transform: scale(1); }
+    38% { transform: scale(1.48); }
+    41% { transform: scale(1); }
+    44% { transform: scale(1.25); }
+    47% { transform: scale(1); }
+	48%  { 
+	    background: url('../images/happy-daisy-2.png') no-repeat;
+		background-size: 100px 100px;
+	}
+	64% {  
+	    background: url('../images/happy-daisy-2.png') no-repeat;
+		background-size: 100px 100px;
+	}
+    66% { transform: scale(1); }
+    69% { transform: scale(1.48); }
+    72% { transform: scale(1); }
+    75% { transform: scale(1.25); }
+    78% { transform: scale(1); }
+    80% {  
+	    background: url('../images/happy-daisy-3.png') no-repeat;
+		background-size: 100px 100px;
+    }
+    86% { transform: scale(1); }
+    89% { transform: scale(1.48); }
+    92% { transform: scale(1); }
+    95% { transform: scale(1.25); }
+    98% { transform: scale(1); }
+    100% { 
+	    background: url('../images/happy-daisy-3.png') no-repeat;
+		background-size: 100px 100px;
+    }
+}

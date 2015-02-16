@@ -1,0 +1,168 @@
+@import "characters/mickey/mickey.css";
+@import "characters/mini/mini.css";
+@import "characters/donald/donald.css";
+@import "characters/daisy/daisy.css";
+
+@import "animations/sad-path.css";
+@import "animations/happy-path.css";
+@import "animations/heart-beat.css";
+
+body {
+  background: #dddddd;
+}
+
+.stage {
+	width:800px; 
+	height:600px;
+	margin:100px;
+}
+
+.happy {
+	width:330px; 
+	height:330px;
+	display:inline-block; 
+	margin:30px;
+}
+
+.sad {
+	width:330px; 
+	height:330px;
+	display:inline-block; 
+	margin:30px;
+}
+
+.sad .character {
+	position:absolute;
+	z-index:20;
+
+	   -moz-transform-origin:50% 50%;
+	 -webkit-transform-origin:50% 50%;
+	    transform-origin:50% 50%; 
+}
+
+.happy .character {
+	position:absolute;
+	z-index:20;
+
+	   -moz-transform-origin:50% 50%;
+	 -webkit-transform-origin:50% 50%;
+	    transform-origin:50% 50%; 
+}
+
+.sad .character > div {
+	border: 4px solid black;
+    border-radius: 100px;
+}
+
+.happy .character > div {
+	border: 4px solid red;
+    border-radius: 100px;
+}
+
+.character > div {
+    position: absolute;
+	height:100px;
+	width:100px;
+	z-index:5;
+	background-size: 100px 100px;
+
+    left:-50px;
+    top:-50px;
+}
+
+.sad .duck {
+	-webkit-animation: sadPath 16s 0s infinite linear;
+	-moz-animation: sadPath 16s 0s infinite linear;
+	animation: sadPath 16s 0s infinite linear;
+	-webkit-animation-direction: reverse;
+	-moz-animation-direction: reverse;
+	animation-direction: reverse;
+}
+
+.happy .duck {
+	-webkit-animation: happyPath 8s 0s infinite linear;
+	-moz-animation: happyPath 8s 0s infinite linear;
+	animation: happyPath 8s 0s infinite linear;
+	-webkit-animation-direction: reverse;
+	-moz-animation-direction: reverse;
+	animation-direction: reverse;
+}
+
+.sad .mouse {
+	-webkit-animation: sadPath 16s 0s infinite linear;
+	-moz-animation: sadPath 16s 0s infinite linear;
+	animation: sadPath 16s 0s infinite linear;
+}
+
+.happy .mouse {
+	-webkit-animation: happyPath 8s 0s infinite linear;
+	-moz-animation: happyPath 8s 0s infinite linear;
+	animation: happyPath 8s 0s infinite linear;
+}
+
+.sad .headline div {
+	color: black;
+}
+
+.happy .headline div {
+	color: red;
+}
+
+.headline div {
+	line-height: 130px;
+	font-weight: bold;
+	font-size: 25px;
+	cursor: pointer;
+	top: -77px;
+	left: 0px;
+	position: absolute;
+	text-align: center;
+}
+
+.off-stage {
+	display:none;
+}
+
+.dnd-drop-target {
+  position: relative;
+  line-height: 50px;
+  font-weight: 300;
+  overflow: hidden;
+  width:300px;
+  height:300px;
+  border-radius: 500px;
+
+}
+
+.sad .dnd-drop-target {
+	background: url('images/frown.png') no-repeat;
+}
+
+.happy .dnd-drop-target {
+	background: url('images/heart.png') no-repeat;
+
+	 -moz-animation: heartbeat 3s linear infinite; 
+	  -webkit-animation: heartbeat 3s linear infinite; 
+	  animation: heartbeat 3s linear infinite;
+
+	   -moz-transform-origin:50% 50%;
+	 -webkit-transform-origin:50% 50%;
+	    transform-origin:50% 50%;
+}
+
+.background-character-list {
+	width:500px;
+	height:500px;
+	position:absolute;
+}
+
+.background-character {
+ -moz-animation: heartbeat 3s linear infinite; 
+  -webkit-animation: heartbeat 3s linear infinite; 
+  animation: heartbeat 3s linear infinite;
+
+   -moz-transform-origin:50% 50%;
+ -webkit-transform-origin:50% 50%;
+    transform-origin:50% 50%;
+
+}

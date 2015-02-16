@@ -1,0 +1,19 @@
+@import "animations/mini-sad-scene.css";
+@import "animations/mini-happy-scene.css";
+
+
+.mini {
+	background: url('images/happy-mini-1.png') no-repeat;
+}
+
+.sad .mini {
+	-webkit-animation: miniSadScene 16s 0s linear infinite;
+	-moz-animation: miniSadScene 16s 0s linear infinite;
+	animation: miniSadScene 16s 0s linear infinite;
+}
+
+.happy .mini {
+	-webkit-animation: miniHappyScene 4s 0s linear infinite;
+	-moz-animation: miniHappyScene 4s 0s linear infinite;
+	animation: miniHappyScene 4s 0s linear infinite;
+}

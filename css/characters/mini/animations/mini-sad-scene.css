@@ -1,0 +1,113 @@
+@-webkit-keyframes miniSadScene {
+    0% {  
+	    background: url('../images/sad-mini-1.png') no-repeat;
+		background-size: 100px 100px; 
+		-webkit-transform: scale(1);
+    }
+	16%  {
+	    background: url('../images/sad-mini-1.png') no-repeat;
+		background-size: 100px 100px;
+	}
+	32%  {
+	    background: url('../images/sad-mini-1.png') no-repeat;
+		background-size: 100px 100px;
+		-webkit-transform: scale(0.7);
+	} 
+	48%  { 
+	    background: url('../images/sad-mini-2.png') no-repeat;
+		background-size: 100px 100px;
+		-webkit-transform: scale(1);
+	}
+	64% {  
+	    background: url('../images/sad-mini-2.png') no-repeat;
+		background-size: 100px 100px;
+	}
+    80% {  
+	    background: url('../images/sad-mini-3.png') no-repeat;
+		background-size: 100px 100px;
+		-webkit-transform: scale(0.7);
+    }
+    100% { 
+	    background: url('../images/sad-mini-3.png') no-repeat;
+		background-size: 100px 100px;
+		-webkit-transform: scale(1);
+    }
+}
+
+
+
+
+
+@-moz-keyframes miniSadScene {
+    0% {  
+        background: url('../images/sad-mini-1.png') no-repeat;
+        background-size: 100px 100px; 
+        -moz-transform: scale(1);
+    }
+    16%  {
+        background: url('../images/sad-mini-1.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    32%  {
+        background: url('../images/sad-mini-1.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(0.7);
+    } 
+    48%  { 
+        background: url('../images/sad-mini-2.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(1);
+    }
+    64% {  
+        background: url('../images/sad-mini-2.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    80% {  
+        background: url('../images/sad-mini-3.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(0.7);
+    }
+    100% { 
+        background: url('../images/sad-mini-3.png') no-repeat;
+        background-size: 100px 100px;
+        -moz-transform: scale(1);
+    }
+}
+
+
+
+@keyframes miniSadScene {
+    0% {  
+        background: url('../images/sad-mini-1.png') no-repeat;
+        background-size: 100px 100px; 
+        transform: scale(1);
+    }
+    16%  {
+        background: url('../images/sad-mini-1.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    32%  {
+        background: url('../images/sad-mini-1.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(0.7);
+    } 
+    48%  { 
+        background: url('../images/sad-mini-2.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(1);
+    }
+    64% {  
+        background: url('../images/sad-mini-2.png') no-repeat;
+        background-size: 100px 100px;
+    }
+    80% {  
+        background: url('../images/sad-mini-3.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(0.7);
+    }
+    100% { 
+        background: url('../images/sad-mini-3.png') no-repeat;
+        background-size: 100px 100px;
+        transform: scale(1);
+    }
+}
